@@ -21,8 +21,8 @@
 
 bin_PROGRAMS = xmessage
 
-xmessage_CFLAGS = $(DEP_CFLAGS)
-xmessage_LDADD = $(DEP_LIBS)
+xmessage_CFLAGS = $(XMESSAGE_CFLAGS)
+xmessage_LDADD = $(XMESSAGE_LIBS)
 
 xmessage_SOURCES =	\
         makeform.c \
