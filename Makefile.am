@@ -43,8 +43,9 @@ APPDEFAULTFILES = \
         Xmessage \
         Xmessage-color
 
+SUFFIXES = .ad
 
-$(APPDEFAULTFILES): %: %.ad
+.ad:
 	cp $< $@
 
 appdefault_DATA = $(APPDEFAULTFILES)
