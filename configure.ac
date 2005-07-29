@@ -22,7 +22,7 @@ dnl
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
-AC_INIT(xmessage,[7.0], [xorg@freedesktop.org],xmessage)
+AC_INIT(xmessage,[0.99.0], [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],xmessage)
 AM_INIT_AUTOMAKE([dist-bzip2])
 AM_MAINTAINER_MODE
 
@@ -35,5 +35,7 @@ AC_PROG_INSTALL
 XAW_CHECK_XPRINT_SUPPORT(XMESSAGE)
 AC_SUBST(XMESSAGE_CFLAGS)
 AC_SUBST(XMESSAGE_LIBS)
+
+XORG_RELEASE_VERSION
 
 AC_OUTPUT([Makefile])
