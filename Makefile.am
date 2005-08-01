@@ -31,7 +31,7 @@ xmessage_SOURCES =	\
         xmessage.c \
         xmessage.h
 
-dist_man_MANS = \
+dist_man1_MANS = \
         xmessage.man
 
 # App default files  (*.ad)
