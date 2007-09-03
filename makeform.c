@@ -56,7 +56,7 @@ unquote_pairs (ButtonRecord *br, int n)
 {
     int i;
 
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < n; i++, br++) {
 	char *dst, *src;
 	int quoted = 0;
 
