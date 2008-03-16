@@ -1,4 +1,3 @@
-static char*id="$XConsortium: xmessage.c,v 1.6 95/01/04 16:29:54 gildea Exp $";
 /*
 
 Copyright (c) 1988, 1991, 1994  X Consortium
@@ -121,7 +120,6 @@ NULL};
     fprintf (outf, "where options include:\n");
     for (cpp = options; *cpp; cpp++)
 	fprintf (outf, "%s\n", *cpp);
-    fprintf (outf, "%s\n", id+1);
 }
 
 /*
@@ -157,7 +155,7 @@ default_exit_action(Widget w, XEvent *event, String *params,
 
 /* Convert tabs to spaces in *messagep,*lengthp, copying to a new block of
    memory.  */
-void
+static void
 detab (char **messagep, int *lengthp)
 {
   int   i, n, col, psize;
