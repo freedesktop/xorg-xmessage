@@ -40,8 +40,8 @@ appdefaultdir = @appdefaultdir@
 
 
 APPDEFAULTFILES = \
-        Xmessage \
-        Xmessage-color
+        app-defaults/Xmessage \
+        app-defaults/Xmessage-color
 
 SUFFIXES = .ad
 
