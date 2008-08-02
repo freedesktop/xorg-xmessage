@@ -21,7 +21,7 @@
 
 bin_PROGRAMS = xmessage
 
-xmessage_CFLAGS = $(XMESSAGE_CFLAGS)
+AM_CFLAGS = $(XMESSAGE_CFLAGS)
 xmessage_LDADD = $(XMESSAGE_LIBS)
 
 xmessage_SOURCES =	\
@@ -46,6 +46,7 @@ APPDEFAULTFILES = \
 SUFFIXES = .ad
 
 .ad:
+	$(mkdir_p) app-defaults
 	cp $< $@
 
 appdefault_DATA = $(APPDEFAULTFILES)
