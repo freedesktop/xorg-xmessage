@@ -20,3 +20,7 @@ stamp-h1
 xmessage
 xmessage.1
 *~
+*.o
+xmessage-*.tar.*
+ChangeLog
+tags

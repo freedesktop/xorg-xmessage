@@ -72,11 +72,11 @@ static XtResource resources[] = {
     { "nearMouse", "NearMouse", XtRBoolean, sizeof (Boolean),
       offset(nearmouse), XtRString, "false" },
     { "timeout", "Timeout", XtRInt, sizeof (int),
-      offset(timeout_secs), XtRInt, 0 },
+      offset(timeout_secs), XtRInt, NULL },
     { "maxHeight", "Maximum", XtRDimension, sizeof (Dimension),
-      offset(maxHeight), XtRDimension, 0 },
+      offset(maxHeight), XtRDimension, NULL },
     { "maxWidth", "Maximum", XtRDimension, sizeof (Dimension),
-      offset(maxWidth), XtRDimension, 0 },
+      offset(maxWidth), XtRDimension, NULL },
 };
 #undef offset
 

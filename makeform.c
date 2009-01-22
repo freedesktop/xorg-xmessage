@@ -91,6 +91,7 @@ parse_name_and_exit_code_list (char *buttonlist, ButtonRecord **brptr)
     int len;
     char *copy;
 
+    *brptr = NULL;
     if (!buttonlist) return 0;
 
     /*
