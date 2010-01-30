@@ -21,7 +21,7 @@
 
 bin_PROGRAMS = xmessage
 
-AM_CFLAGS = $(XMESSAGE_CFLAGS)
+AM_CFLAGS = $(CWARNFLAGS) $(XMESSAGE_CFLAGS)
 xmessage_LDADD = $(XMESSAGE_LIBS)
 
 xmessage_SOURCES =	\
