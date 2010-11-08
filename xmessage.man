@@ -48,7 +48,9 @@ sizes itself to fit the message, up to a maximum size.
 If the message is too big for the window, \fIxmessage\fP will display
 scroll bars.
 .SH OPTIONS
-These are the command line options that \fIxmessage\fP understands.
+These are the command line options that \fIxmessage\fP understands, in addition
+to the standard ones listed in
+.BR X (__miscmansuffix__).
 .TP 8
 .B \-buttons \fIbutton,button,.\|.\|.\fP
 This option will cause \fIxmessage\fP to create one button for each
