@@ -28,7 +28,7 @@ xmessage \- display a message or query in a window (X-based /bin/echo)
 .I message
 \&.\|.\|.
 .SH DESCRIPTION
-The 
+The
 .I xmessage
 program
 displays a window containing a message from the command line, a file,
@@ -58,7 +58,7 @@ comma-separated \fIbutton\fP argument.
 The corresponding resource is \fBbuttons\fP.
 Each \fIbutton\fP consists of a label optionally followed by a colon
 and an exit value.
-The label is the name of the Command button widget created and will be the 
+The label is the name of the Command button widget created and will be the
 default text displayed to the user.  Since this is the name of the widget
 it may be used to change any of the resources associated with that button.
 The exit value will be returned by \fIxmessage\fP
@@ -118,7 +118,7 @@ Xmessage (xmessage)
 .fi
 .SH RESOURCES
 The program has a few top-level application resources that allow
-customizations that are specific to \fIxmessage\fP. 
+customizations that are specific to \fIxmessage\fP.
 .TP 8
 .B file
 A String specifying the file to display.
@@ -131,7 +131,7 @@ See the \fB\-buttons\fP command-line option.
 A String specifying a default button by label.
 .TP 8
 .B printValue
-A Boolean value specifying whether the label of the 
+A Boolean value specifying whether the label of the
 button pressed to exit the program is written to standard output.
 The default is FALSE.
 .TP 8
@@ -175,6 +175,6 @@ not be used with a button.
 .IR cat (1)
 .br
 .SH AUTHORS
-Chris Peterson, MIT Project Athena 
+Chris Peterson, MIT Project Athena
 .br
 Stephen Gildea, X Consortium
