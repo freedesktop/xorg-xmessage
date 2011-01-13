@@ -171,8 +171,8 @@ If it detects an error, \fIxmessage\fP returns 1, so this value should
 not be used with a button.
 .SH "SEE ALSO"
 .IR X (__miscmansuffix__),
-.IR echo (1),
-.IR cat (1)
+.IR echo (__appmansuffix__),
+.IR cat (__appmansuffix__)
 .br
 .SH AUTHORS
 Chris Peterson, MIT Project Athena
